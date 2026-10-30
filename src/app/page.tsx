@@ -12,12 +12,14 @@ export default function Home() {
           >
             ❤️ Support This Project - Donate Bitcoin
           </Link>
-          <Link 
-            href="/feedback" 
+          <a 
+            href="https://my-oa22sukffl.brewpage.app/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block px-4 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-medium rounded-lg hover:from-purple-700 hover:to-indigo-700 transition-all shadow-md"
           >
-            📝 Share Your Feedback
-          </Link>
+            📝 Share Your Feedback (External)
+          </a>
         </div>
       </div>
       <SubscriptionDashboard />
