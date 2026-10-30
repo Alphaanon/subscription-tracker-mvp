@@ -1,0 +1,8 @@
+name,amount,currency,frequency,nextBillingDate,category,url,notes
+Netflix,15.99,USD,monthly,2026-09-15,Entertainment,https://netflix.com,Family plan
+Spotify,9.99,USD,monthly,2026-09-20,Entertainment,https://spotify.com,Premium Duo
+GitHub Pro,4.00,USD,monthly,2026-09-10,Developer Tools,https://github.com,Personal Pro account
+AWS,29.99,USD,monthly,2026-09-25,Developer Tools,https://aws.amazon.com,Free tier overage
+Dropbox,11.99,USD,monthly,2026-09-18,Cloud Storage,https://dropbox.com,Plus plan
+Adobe Creative Cloud,54.99,USD,monthly,2026-09-12,Design Tools,https://adobe.com,All apps plan
+Notion,8.00,USD,monthly,2026-09-22,Productivity,https://notion.so,Plus plan for team

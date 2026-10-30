@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: 'Adobe Clean', Arial, sans-serif; margin: 0; padding: 20px; background-color: #f4f4f4; }
+    .container { max-width: 600px; margin: 0 auto; background: white; padding: 30px; border-radius: 4px; }
+    .header { border-bottom: 3px solid #FF0000; padding-bottom: 15px; margin-bottom: 20px; }
+    .logo { font-size: 24px; font-weight: bold; color: #333; }
+    .receipt-title { font-size: 18px; font-weight: 600; margin: 20px 0 15px 0; }
+    .receipt-summary { background: #f8f8f8; padding: 20px; border-radius: 4px; margin: 15px 0; }
+    .summary-row { display: flex; justify-content: space-between; margin: 10px 0; }
+    .label { color: #666; }
+    .value { font-weight: 500; color: #333; }
+    .amount-row { font-size: 20px; border-top: 1px solid #ddd; padding-top: 15px; margin-top: 15px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">Adobe Creative Cloud</div>
+    </div>
+    
+    <div class="receipt-title">Receipt #CC-2026-09-05</div>
+    
+    <p>Thank you for your payment.</p>
+    
+    <div class="receipt-summary">
+      <div class="summary-row">
+        <span class="label">Product:</span>
+        <span class="value">Adobe Creative Cloud All Apps</span>
+      </div>
+      <div class="summary-row">
+        <span class="label">Billing Cycle:</span>
+        <span class="value">Monthly</span>
+      </div>
+      <div class="summary-row">
+        <span class="label">Billing Date:</span>
+        <span class="value">September 15, 2026</span>
+      </div>
+      <div class="summary-row">
+        <span class="label">Next Billing Date:</span>
+        <span class="value">October 15, 2026</span>
+      </div>
+      <div class="summary-row amount-row">
+        <span class="label" style="font-size: 18px;">Amount Charged:</span>
+        <span class="value" style="font-size: 20px; font-weight: bold;">$52.99 USD</span>
+      </div>
+    </div>
+    
+    <div class="receipt-summary">
+      <div class="summary-row">
+        <span class="label">Account Email:</span>
+        <span class="value">user@example.com</span>
+      </div>
+      <div class="summary-row">
+        <span class="label">Transaction ID:</span>
+        <span class="value">ADOBE-TXN-555666</span>
+      </div>
+    </div>
+    
+    <p style="color: #666; font-size: 12px; margin-top: 20px;">
+      This email is an official receipt from Adobe Inc. For support, visit helpx.adobe.com
+    </p>
+  </div>
+</body>
+</html>

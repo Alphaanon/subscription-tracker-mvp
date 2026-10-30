@@ -1,0 +1,36 @@
+{
+  "subscriptions": [
+    {
+      "name": "Netflix",
+      "amount": "15.99",
+      "currency": "USD",
+      "billing_cycle": "monthly",
+      "next_billing_date": "2026-09-18",
+      "email": "user@example.com"
+    },
+    {
+      "name": "Spotify",
+      "amount": "9.99",
+      "currency": "USD",
+      "billing_cycle": "monthly",
+      "next_billing_date": "2026-09-20",
+      "email": "user@example.com"
+    },
+    {
+      "name": "Adobe Creative Cloud",
+      "amount": "52.99",
+      "currency": "USD",
+      "billing_cycle": "monthly",
+      "next_billing_date": "2026-09-25",
+      "email": "user@example.com"
+    },
+    {
+      "name": "AWS",
+      "amount": "599.00",
+      "currency": "USD",
+      "billing_cycle": "yearly",
+      "next_billing_date": "2027-01-15",
+      "email": "user@example.com"
+    }
+  ]
+}

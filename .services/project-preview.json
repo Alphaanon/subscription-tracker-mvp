@@ -1,0 +1,19 @@
+{
+  "service_name": "project-preview-workspace-subscription-tracker",
+  "kind": "dev_preview",
+  "project_id": "workspace-subscription-tracker",
+  "workspace": "workspace-subscription-tracker",
+  "cwd": ".",
+  "command": "npm run dev -- --hostname 127.0.0.1 --port 53105",
+  "pid": 4117444,
+  "process_group_id": 4117402,
+  "port": 53105,
+  "health_url": "http://127.0.0.1:53105/",
+  "status": "running",
+  "started_at": 1790154560.6144173,
+  "generation": 23,
+  "log_path": "/home/neo/.config/CEX/accounts/main/data/project-preview-logs/workspace-subscription-tracker-f9f6eb988a/preview-23.log",
+  "thread_id": "thr_main",
+  "exchange_id": "atl_1790153824752",
+  "goal_key": "gpk_fcceac639cfcfe8d"
+}

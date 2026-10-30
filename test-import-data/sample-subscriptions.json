@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Netflix",
+    "amount": 15.99,
+    "currency": "USD",
+    "frequency": "monthly",
+    "nextBillingDate": "2026-09-15",
+    "category": "Entertainment",
+    "url": "https://netflix.com",
+    "notes": "Family plan"
+  },
+  {
+    "name": "Spotify",
+    "amount": 9.99,
+    "currency": "USD",
+    "frequency": "monthly",
+    "nextBillingDate": "2026-09-20",
+    "category": "Entertainment",
+    "url": "https://spotify.com",
+    "notes": "Premium Duo"
+  },
+  {
+    "name": "GitHub Pro",
+    "amount": 4.00,
+    "currency": "USD",
+    "frequency": "monthly",
+    "nextBillingDate": "2026-09-10",
+    "category": "Developer Tools",
+    "url": "https://github.com",
+    "notes": "Personal Pro account"
+  },
+  {
+    "name": "AWS",
+    "amount": 29.99,
+    "currency": "USD",
+    "frequency": "monthly",
+    "nextBillingDate": "2026-09-25",
+    "category": "Developer Tools",
+    "url": "https://aws.amazon.com",
+    "notes": "Free tier overage"
+  },
+  {
+    "name": "Dropbox",
+    "amount": 11.99,
+    "currency": "USD",
+    "frequency": "monthly",
+    "nextBillingDate": "2026-09-18",
+    "category": "Cloud Storage",
+    "url": "https://dropbox.com",
+    "notes": "Plus plan"
+  },
+  {
+    "name": "Adobe Creative Cloud",
+    "amount": 54.99,
+    "currency": "USD",
+    "frequency": "monthly",
+    "nextBillingDate": "2026-09-12",
+    "category": "Design Tools",
+    "url": "https://adobe.com",
+    "notes": "All apps plan"
+  },
+  {
+    "name": "Notion",
+    "amount": 8.00,
+    "currency": "USD",
+    "frequency": "monthly",
+    "nextBillingDate": "2026-09-22",
+    "category": "Productivity",
+    "url": "https://notion.so",
+    "notes": "Plus plan for team"
+  }
+]

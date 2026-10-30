@@ -1,0 +1,16 @@
+[
+  {
+    "name": "YouTube Premium",
+    "amount": 11.99,
+    "currency": "USD",
+    "billing_cycle": "monthly",
+    "next_billing_date": "2026-09-15"
+  },
+  {
+    "name": "Adobe Creative Cloud",
+    "amount": 54.99,
+    "currency": "USD",
+    "billing_cycle": "monthly",
+    "next_billing_date": "2026-09-20"
+  }
+]

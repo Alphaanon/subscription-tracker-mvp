@@ -1,0 +1,4 @@
+name,url,amount,currency,interval,nextBillingDate
+Netflix,https://netflix.com,15.99,USD,monthly,2026-09-15
+Spotify,https://spotify.com,9.99,USD,monthly,2026-09-20
+GitHub Pro,https://github.com,4.00,USD,monthly,2026-09-25

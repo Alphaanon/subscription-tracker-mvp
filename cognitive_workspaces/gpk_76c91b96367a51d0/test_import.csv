@@ -1,0 +1,4 @@
+name,amount,billing_cycle,next_billing_date,currency,email
+Netflix,15.49,monthly,2026-10-11,USD,neo@example.com
+Spotify,9.99,monthly,2026-09-15,USD,neo@example.com
+Amazon Prime,139.00,yearly,2026-12-01,USD,neo@example.com

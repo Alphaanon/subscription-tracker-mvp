@@ -1,0 +1,20 @@
+{
+  "subscriptions": [
+    {
+      "name": "Adobe Creative Cloud",
+      "url": "https://adobe.com",
+      "amount": 54.99,
+      "currency": "USD",
+      "interval": "monthly",
+      "nextBillingDate": "2026-10-01"
+    },
+    {
+      "name": "AWS",
+      "url": "https://aws.amazon.com",
+      "amount": 29.99,
+      "currency": "USD",
+      "interval": "monthly",
+      "nextBillingDate": "2026-09-30"
+    }
+  ]
+}

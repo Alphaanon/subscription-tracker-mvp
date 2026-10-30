@@ -1,0 +1,5 @@
+name,amount,billing_cycle,next_billing_date,currency,email
+Netflix,15.49,monthly,2026-10-15,USD,netflix@example.com
+Spotify,9.99,monthly,2026-09-20,USD,spotify@example.com
+GitHub Pro,4.00,monthly,2026-10-01,USD,github@example.com
+AWS,50.00,monthly,2026-09-25,USD,aws@example.com

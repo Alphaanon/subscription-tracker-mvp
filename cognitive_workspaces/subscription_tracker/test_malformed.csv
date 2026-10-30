@@ -1,0 +1,2 @@
+name,amount,frequency,next_billing_date
+Bad Subscription,not_a_number,monthly,invalid-date

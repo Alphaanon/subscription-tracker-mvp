@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Netflix",
+    "amount": 15.49,
+    "billing_cycle": "monthly",
+    "next_billing_date": "2026-09-18",
+    "currency": "USD",
+    "email": "test@example.com"
+  },
+  {
+    "name": "Spotify",
+    "amount": 9.99,
+    "billing_cycle": "monthly",
+    "next_billing_date": "2026-09-20",
+    "currency": "USD",
+    "email": "test@example.com"
+  },
+  {
+    "name": "AWS",
+    "amount": 99.00,
+    "billing_cycle": "monthly",
+    "next_billing_date": "2026-09-25",
+    "currency": "USD",
+    "email": "test@example.com"
+  },
+  {
+    "name": "GitHub Pro",
+    "amount": 4.00,
+    "billing_cycle": "monthly",
+    "next_billing_date": "2026-10-15",
+    "currency": "USD",
+    "email": "test@example.com"
+  }
+]

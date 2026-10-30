@@ -1,0 +1,7 @@
+name,amount,billingCycle,nextRenewalDate,url
+Netflix,15.99,monthly,2026-09-20,https://netflix.com
+Spotify,9.99,monthly,2026-09-22,https://spotify.com
+Adobe Creative Cloud,54.99,monthly,2026-10-01,https://adobe.com
+GitHub Pro,4.99,monthly,2026-09-25,https://github.com
+Notion,8.00,monthly,2026-09-19,https://notion.so
+Figma,12.00,monthly,2026-09-21,https://figma.com

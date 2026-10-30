@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Subscription Tracker - Bitcoin Payment</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 { color: #333; margin-bottom: 10px; text-align: center; }
+        .subtitle { color: #666; text-align: center; margin-bottom: 30px; }
+        .bitcoin-section {
+            background: #fff9e6;
+            border: 2px solid #f7931a;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .bitcoin-logo {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .address-box {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 14px;
+            word-break: break-all;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+        }
+        .copy-btn {
+            background: #f7931a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .copy-btn:hover { background: #e6820e; }
+        .amount-suggestions {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .amount-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .amount-btn:hover { background: #5a67d8; }
+        .description {
+            color: #555;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+        .link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #667eea;
+            text-decoration: none;
+        }
+        .link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Support Subscription Tracker</h1>
+        <p class="subtitle">Help keep this tool free and ad-free!</p>
+        
+        <p class="description">
+            Love Subscription Tracker? Show your appreciation with a Bitcoin donation. 
+            Your support helps maintain the service and add new features.
+        </p>
+
+        <div class="bitcoin-section">
+            <div class="bitcoin-logo">₿</div>
+            <p><strong>Bitcoin Address:</strong></p>
+            <div class="address-box" id="btcAddress">1GGC7xCyjz8xdcHJZTXT8epMFJuHHm18LH</div>
+            <button class="copy-btn" onclick="copyAddress()">📋 Copy Address</button>
+        </div>
+
+        <p><strong>Suggested Donation Amounts:</strong></p>
+        <div class="amount-suggestions">
+            <button class="amount-btn" onclick="copyWithAmount('0.001 BTC')">☕ $50</button>
+            <button class="amount-btn" onclick="copyWithAmount('0.005 BTC')">🎉 $250</button>
+            <button class="amount-btn" onclick="copyWithAmount('0.01 BTC')">🚀 $500</button>
+        </div>
+
+        <p class="description">
+            Every contribution, no matter the size, is appreciated! <br>
+            Thank you for supporting open-source tools.
+        </p>
+
+        <a href="https://subscription-tracker-mvp.vercel.app" class="link">← Back to Subscription Tracker</a>
+    </div>
+
+    <script>
+        function copyAddress() {
+            const address = document.getElementById('btcAddress').textContent;
+            navigator.clipboard.writeText(address).then(() => {
+                const btn = document.querySelector('.copy-btn');
+                btn.textContent = '✅ Copied!';
+                setTimeout(() => btn.textContent = '📋 Copy Address', 2000);
+            });
+        }
+
+        function copyWithAmount(text) {
+            const address = document.getElementById('btcAddress').textContent;
+            navigator.clipboard.writeText(address).then(() => {
+                alert('Address copied! Suggested amount: ' + text);
+            });
+        }
+    </script>
+</body>
+</html>
